@@ -1,0 +1,91 @@
+*{
+    font-family: Arial
+}
+/*If we are going to use class, we will put a dot in front of it. If we want to select by ID, we should put this sign '#'.*/
+.bir{
+    color: red;
+    background-color: #00caf2;
+    text-align: left;
+}
+.iki{
+    color: blue;
+    background-color: #ffcc00;
+    text-align: center;
+}
+.uc{
+    color: green;
+    background-color: #ffff00;
+    text-align: right;
+}
+#dort{
+    color: purple;
+    background-color: #ff00ff;
+}
+h1{
+    /*border: 10px solid gray;*/
+    border-width: 10px;
+    border-style: double;
+    border-color: red;
+    padding: 25px;
+    margin: 25px;
+    /*margin-right: 90px;
+    padding-bottom: 90px;
+    */
+    border-radius: 25px;
+    line-break: anywhere;
+
+    
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Josefin Sans", sans-serif !important;
+}
+#alan{
+    padding: 20px;
+    border: 5px dotted black;
+    width: 50%;
+    height: 200 px;
+}
+.img{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: yellow !important;
+    color: gray !important;
+}
+.horizontal{
+    max-width: 600px;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.right_field{
+    margin-top: 1rem;
+}
+.horizontal2{
+    max-width: 800px;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 15px;
+    display: flex; /*brings the elements within it together */
+}
+.right_field2{
+    margin-left: 1rem;
+}
+#my_button{
+    margin-top: 1rem;
+    padding: 10px;
+    border: 2px dotted black;
+    border-radius: 5px;
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+       
+  
